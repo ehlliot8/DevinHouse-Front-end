@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+li {
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B2430;
+    background-image: linear-gradient(to right, black , #1B2430);
+    color: aliceblue;
+    padding: 25px;
+}
+
+hr {
+    margin: 0;
+}
+main img {
+   
+    width: 245px;
+}
+#main3 {
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
+#filmeseseries{
+    text-align: center;
+}
+#filmes-flix{
+    color: red;
+}
